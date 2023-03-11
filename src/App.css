@@ -1,0 +1,14 @@
+:root{
+    --bodyBackground: #f4f4f7;
+    --inactiveText: #a7a7a7;
+    --activeOption: #ef476f;
+    --green: #05d59f;
+    --yellow: #ffc33c;
+    --yellowFade: #ffe5ac;
+    --borderLine: #d6d6d8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

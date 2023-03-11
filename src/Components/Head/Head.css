@@ -1,0 +1,36 @@
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    padding: 0 30px;
+    box-shadow: 0px 1px 5px 1px var(--inactiveText);
+}
+.title{
+    font-family: 'Zeyada', cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.title-do{
+    color: var(--green);
+}
+.headNav{
+    font-size: large;
+    color: var(--inactiveText);
+    height: 100%;
+    font-weight: 500;
+}
+.headNav span{
+    margin: 0 20px;
+    height: 100%;
+    display: inline-block;
+    padding-top: 15px;
+}
+.headNav span:hover{
+    color: var(--activeOption);
+    border-bottom: solid var(--activeOption);
+}
