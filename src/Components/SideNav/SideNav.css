@@ -1,0 +1,26 @@
+.sideNav{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    border-right: solid var(--borderLineColor);
+    height: calc( 100vh - 60px);
+    width: 300px;
+    font-size: large;
+    font-weight: 500;
+    color: var(--inactiveText);
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 80px);
+    grid-template-columns: auto;
+}
+.sideNav div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    /* border: solid; */
+    padding: 25px 35px 0 50px;
+}
+.sideNav div:hover{
+    color: var(--activeOption);
+    border-right: solid var(--activeOption);
+}
