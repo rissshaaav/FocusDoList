@@ -1,0 +1,28 @@
+.todo{
+    padding: 10px;
+}
+.todo ul{
+    list-style: none;
+}
+.todo ul li{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin: 10px 5px;
+}
+.dataContainer{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: larger;
+}
+.dataContainer input{
+    float: right;
+}
+.verticalSpan{
+    height: 100%;
+    width: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+}

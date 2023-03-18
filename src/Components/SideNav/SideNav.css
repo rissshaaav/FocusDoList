@@ -4,7 +4,7 @@
     left: 0;
     border-right: solid var(--borderLineColor);
     height: calc( 100vh - 60px);
-    width: 300px;
+    width: 250px;
     font-size: large;
     font-weight: 500;
     color: var(--inactiveText);
@@ -18,7 +18,7 @@
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
     /* border: solid; */
-    padding: 25px 35px 0 50px;
+    padding: 25px 35px 0 20px;
 }
 .sideNav div:hover{
     color: var(--activeOption);

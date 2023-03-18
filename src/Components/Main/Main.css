@@ -1,0 +1,23 @@
+.main{
+    position: fixed;
+    top: 60px;
+    left: 250px;
+    border: solid;
+    width: calc( 100% - 250px);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+    background-color: #e0e0e0;
+}
+.left{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+}
+.right{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 0.10fr 1fr;
+}
